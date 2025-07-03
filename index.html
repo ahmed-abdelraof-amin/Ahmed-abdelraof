@@ -5,31 +5,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
     <div class="container">
-        <nav>
-            <a href="#" class="logo">ADIDAS</a>
+        <header>
+            <a href="#"><img src="image/logo.png" class="logo"></a>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Men</a></li>
-                <li><a href="#">Women</a></li>
-                <li><a href="#">Kids</a></li>
+                <li><a href="#">home</a></li>
+                <li><a href="#">products</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">contact</a></li>
             </ul>
-        </nav>
+        </header>
         <div class="content">
             <div class="text">
-                <h2> adidas egypt, <br> running shoes</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, eveniet!
+                <h2>iphone 13 pro max</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto aliquam molestias ratione quis
+                    voluptate mollitia!
                 </p>
+                <a href="#">all product</a>
             </div>
-            <div class="img">
-                <img src="shoes.png">
+            <div class="image">
+                <img src="image/0.png" class="img">
             </div>
         </div>
+        <div class="icons">
+            <img onclick="phones(this.src); colors('#000')" src="image/0.png">
+            <img onclick="phones(this.src); colors('#247ec8')" src="image/1.png">
+            <img onclick="phones(this.src); colors('#1e1e1e')" src="image/2.png">
+            <img onclick="phones(this.src); colors('#c79b53')" src="image/3.png">
+            <img onclick="phones(this.src); colors('#c82525')" src="image/4.png">
+
+        </div>
     </div>
+    <script src="main.js"></script>
 </body>
 
 </html>
